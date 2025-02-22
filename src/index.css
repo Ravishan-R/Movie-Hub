@@ -54,7 +54,7 @@
   }
 
   .wrapper {
-    @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10 overflow-x-hidden;
+    @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
   }
 
   .trending {
@@ -93,7 +93,7 @@
     }
   }
 
-  .all-movies {
+  .all_movies {
     @apply space-y-9;
 
     & ul {
@@ -101,7 +101,7 @@
     }
   }
 
-  .movie-card {
+  .movie_card {
     @apply bg-dark-100 p-5 rounded-2xl shadow-inner shadow-light-100/10;
 
     & img {
